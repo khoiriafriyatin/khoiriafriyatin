@@ -1,0 +1,60 @@
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #fff0f5;
+}
+
+.navbar {
+  background-color: #da70d6;
+}
+
+#keahlian {
+  background-color: #fff0f5;
+}
+
+#contact {
+  background-color: #fff0f5;
+}
+
+section {
+  padding-top: 5rem;
+  padding: 3px;
+}
+
+#keahlian .box {
+  position: relative;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+#keahlian .box h4 {
+  text-transform: uppercase;
+  color: #848c99;
+  font-weight: 500;
+}
+
+#keahlian .box .percent {
+  position: relative;
+  width: 100%;
+  height: 10px;
+  background: #f0f0f0;
+}
+
+#keahlian .box .percent div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #03a9fa;
+}
+
+footer {
+  background-color: #da70d6;
+}
+
+body html {
+  width: 100%;
+  overflow-x: hidden;
+}
